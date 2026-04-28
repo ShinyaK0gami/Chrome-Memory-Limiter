@@ -1,8 +1,8 @@
-# 🛡️ RAM Guardian
+# 🛡️ Chrome Mermory Limiter
 
 **A modern, lightweight desktop application that strictly limits Google Chrome's memory footprint.**
 
-RAM Guardian acts as a strict "bouncer" for your system memory. Instead of blindly killing your active workflow, it allows you to allocate a hard Gigabyte (GB) limit specifically for Chrome. Once Chrome hits that limit, RAM Guardian intercepts and blocks any *new* tabs from opening until memory is freed up, ensuring your PC never crashes from browser memory leaks again.
+Chrome Mermory Limiter acts as a strict "bouncer" for your system memory. Instead of blindly killing your active workflow, it allows you to allocate a hard Gigabyte (GB) limit specifically for Chrome. Once Chrome hits that limit, Chrome Mermory Limiter intercepts and blocks any *new* tabs from opening until memory is freed up, ensuring your PC never crashes from browser memory leaks again.
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![CustomTkinter](https://img.shields.io/badge/UI-CustomTkinter-success.svg)
@@ -21,11 +21,11 @@ RAM Guardian acts as a strict "bouncer" for your system memory. Instead of blind
 ---
 
 ## 🛠️ How It Works (The "Bouncer" Method)
-RAM Guardian is designed to be safe for your workflow. 
+Chrome Mermory Limiter is designed to be safe for your workflow. 
 
-If you allocate 4GB to Chrome, and Chrome hits 4.0GB, RAM Guardian **will not** randomly kill your open tabs (which could cause you to lose unsaved work). Instead, it takes a snapshot of your currently open tabs. If you try to open a *new* tab, RAM Guardian instantly kills that new specific process (resulting in an "Aw, Snap!" page on the new tab), leaving your existing workflow entirely untouched.
+If you allocate 4GB to Chrome, and Chrome hits 4.0GB, Chrome Mermory Limiter **will not** randomly kill your open tabs (which could cause you to lose unsaved work). Instead, it takes a snapshot of your currently open tabs. If you try to open a *new* tab, Chrome Mermory Limiter instantly kills that new specific process (resulting in an "Aw, Snap!" page on the new tab), leaving your existing workflow entirely untouched.
 
-> **💡 Pro-Tip:** For the ultimate setup, pair RAM Guardian with Chrome's native **Memory Saver** (`chrome://settings/performance`). RAM Guardian stops new tabs from overwhelming your system, while Chrome's Memory Saver quietly puts your background tabs to sleep!
+> **💡 Pro-Tip:** For the ultimate setup, pair Chrome Mermory Limiter with Chrome's native **Memory Saver** (`chrome://settings/performance`). Chrome Mermory Limiter stops new tabs from overwhelming your system, while Chrome's Memory Saver quietly puts your background tabs to sleep!
 
 ---
 
